@@ -5,7 +5,7 @@
 #### Citation
 
 ### Project Objectives: 
-The objective of this project is to build a multi class classifier to identify sound
+The objective of this project is to build a multi class classifier to identify emotion of different sound
 of Urdu , Baved, AESDD, TESS.
 
 ### Dataset Description:
