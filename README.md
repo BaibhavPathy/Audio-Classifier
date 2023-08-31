@@ -9,7 +9,7 @@ The objective of this project is to build a multi class classifier to identify e
 of Urdu , Baved, AESDD, TESS.
 
 ### Dataset Description:
-Given dataset contains total of 9,914 audio sample, where 3,300 belongs to Bee, 3,500 belongs to Cricket and 3,114 belongs to noise. Each audio sample is approximately about 2 sec long and has 44,100 amplitude samples/sec. Given dataset was merged and experiments were performed on 80%-20% split.
+Given dataset contains total of 9,914 audio sample, where 3,300 belongs to Urdu, 3,500 belongs to BAVED and 3,114 belongs to TESS. Each audio sample is approximately about 2 sec long and has 44,100 amplitude samples/sec. Given dataset was merged and experiments were performed on 80%-20% split.
 
 |            | URDU          | BAVED       |  TESS  | Total | 
 |-----| ------------- |:-------------:| -----:| -----:|
@@ -34,7 +34,7 @@ During initial experiments ANN was not performing good and later after several e
 
 
 #### Core Idea: 
-Sample Bee Audio and expected feature extraction using pooling layers and merging fully connected layers
+Sample TESS Audio and expected feature extraction using pooling layers and merging fully connected layers
 
 ![alt text](https://raw.githubusercontent.com/ BaibhavPathy/Audio-Classifier /master/img/audio_graph-1.png)
 
